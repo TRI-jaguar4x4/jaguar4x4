@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>jaguar4x4</name>
+  <version>0.1.0</version>
+  <description>Launch files for jaguar4x4</description>
+  <maintainer email="toffee.albina@tri.global">Toffee Albina</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>joy</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>ros2run</exec_depend>
+  <exec_depend>teleop_twist_joy</exec_depend>
+  <exec_depend>jaguar_base</exec_depend>
+  <exec_depend>jaguar_arm</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
