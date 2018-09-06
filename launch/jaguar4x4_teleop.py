@@ -19,12 +19,12 @@ import launch
 import launch_ros.actions
 
 def generate_launch_description():
-    jaguar_base = launch_ros.actions.Node(package='jaguar_base',
-                                          node_executable='jaguar_base_node',
+    jaguar_base = launch_ros.actions.Node(package='jaguar4x4_base',
+                                          node_executable='jaguar4x4_base_node',
                                           output='screen')
 
-    jaguar_arm = launch_ros.actions.Node(package='jaguar_arm',
-                                          node_executable='jaguar_arm_node',
+    jaguar_arm = launch_ros.actions.Node(package='jaguar4x4_arm',
+                                          node_executable='jaguar4x4_arm_node',
                                           output='screen')
 
     teleop_twist_joy_params_file = os.path.join(ament_index_python.packages.get_package_share_directory('jaguar4x4'), 'teleop_twist_joy_params.yaml')
