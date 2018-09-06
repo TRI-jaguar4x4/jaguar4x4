@@ -35,7 +35,15 @@ repositories:
     type: git
     url: https://github.com/TRI-jaguar4x4/jpeg_to_raw.git
     version: master
+  joystick_drivers:
+    type: git
+    url: https://github.com/TRI-jaguar4x4/joystick_drivers.git
+    version: ros2-bouncy-compat
   sophus:
     type: git
     url: https://github.com/stonier/sophus.git
     version: devel
+  teleop_twist_joy:
+    type: git
+    url: https://github.com/ros2/teleop_twist_joy.git
+    version: ros2-params
