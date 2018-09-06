@@ -1,0 +1,41 @@
+repositories:
+  axis_camera:
+    type: git
+    url: https://github.com/TRI-jaguar4x4/axis_camera.git
+    version: ros2
+  ecl_core:
+    type: git
+    url: https://github.com/TRI-jaguar4x4/ecl_core.git
+    version: fix-build
+  ecl_lite:
+    type: git
+    url: https://github.com/TRI-jaguar4x4/ecl_lite.git
+    version: fix-build
+  ecl_tools:
+    type: git
+    url: https://github.com/stonier/ecl_tools.git
+    version: devel
+  jaguar4x4:
+    type: git
+    url: https://github.com/TRI-jaguar4x4/jaguar4x4.git
+    version: master
+  jaguar4x4_arm:
+    type: git
+    url: https://github.com/TRI-jaguar4x4/jaguar4x4_arm.git
+    version: master
+  jaguar4x4_base:
+    type: git
+    url: https://github.com/TRI-jaguar4x4/jaguar4x4_base.git
+    version: master
+  jaguar4x4_comms:
+    type: git
+    url: https://github.com/TRI-jaguar4x4/jaguar4x4_comms.git
+    version: master
+  jpeg_to_raw:
+    type: git
+    url: https://github.com/TRI-jaguar4x4/jpeg_to_raw.git
+    version: master
+  sophus:
+    type: git
+    url: https://github.com/stonier/sophus.git
+    version: devel
