@@ -31,6 +31,10 @@ repositories:
     type: git
     url: https://github.com/TRI-jaguar4x4/jaguar4x4_comms.git
     version: master
+  jaguar4x4_nav:
+    type: git
+    url: https://github.com/TRI-jaguar4x4/jaguar4x4_nav.git
+    version: master
   jpeg_to_raw:
     type: git
     url: https://github.com/TRI-jaguar4x4/jpeg_to_raw.git
